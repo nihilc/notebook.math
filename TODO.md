@@ -1,0 +1,5 @@
+- [x] Transcribir apuntes Matemáticas Discretas
+- [ ] Transcribir apuntes Fundamentos Matemáticas
+- [ ] Transcribir apuntes Introducción al Calculo
+- [ ] Desarrollar taller introducción al calculo
+- [ ] Completar Talleres incompletos
