@@ -47,4 +47,4 @@ $$
 \end{split}
 $$
 
-## [[cursos/s1/matematicas_discretas/ejercicios/04-mcm-ej|Ejercicios]]
+## [[cursos/s1/matematicas_discretas/ejercicios/04-mcm.ej|Ejercicios]]

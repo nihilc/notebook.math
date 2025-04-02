@@ -86,4 +86,4 @@ $$
 	&= 1
 \end{split}
 $$
-## [[cursos/s1/matematicas_discretas/ejercicios/03-mcd-ej|Ejercicios]]
+## [[cursos/s1/matematicas_discretas/ejercicios/03-mcd.ej|Ejercicios]]
