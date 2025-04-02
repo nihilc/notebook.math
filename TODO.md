@@ -1,5 +1,7 @@
 # Transcripción apuntes
 
+- Apuntes Rápidos
+	- [ ] Organizar apuntes rápidos [[diario/20250401_calculo|20250401_calculo]] y [[diario/20250401_fundamentos|20250401_fundamentos]]
 - Matemáticas Discretas
 	- [x] Transcribir notas antiguas
 	- [ ] Revisar clase virtual 03/31 y transcribir notas
