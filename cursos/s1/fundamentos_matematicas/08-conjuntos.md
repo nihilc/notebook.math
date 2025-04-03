@@ -3,42 +3,23 @@
 ## Operaciones
 
 - Union
-- Intersección
-- Complemento
-- Diferencia
-- Diferencia Simétrica
-
-### Union
-
 $A\cup B=\{x | x\in A \lor x\in B\}$
-
-### Intersección
-
+- Intersección
 $A\cap B=\{x|x\in A \land x\in B\}$
-
-### Complemento
-
+- Complemento
 $A^C=\{x|x \not\in A\}$
 $C_u(A)=\{x\in U | x \not\in A\}$
-### Diferencia
-
+- Diferencia
 $A-B=\{x|x\in A \land x\not\in B\}$
-
-### Diferencia Simétrica
-
+- Diferencia Simétrica
 $A\triangle B=\{x|x\in A \underline\lor x\in B\}$
 
 ## Diagramas de Venn
 
-![[_files/20250401_fundamentos 20250401]]
+Los diagramas de Venn nos ayudan a visualizar las operaciones entre conjuntos de una forma visual e intuitiva
+![[_files/08-conjuntos_20250401]]
 
-# Como usamos el calculo proposicional para mostrar propiedades en conjuntos?
-
-$A \cup (B \cap C)$
-
-$A\cup(B\cap C) = (A\cup B)\cap(A\cup C)$
-
-# Igualdad de conjuntos
+## Igualdad de Conjuntos
 
 $$
 \begin{split}
@@ -50,22 +31,22 @@ $$
 ==Ejemplo==
 
  $A\cup(B\cap C) =(A\cup B)\cap (A\cup C)$
-![[_files/20250401_fundamentos 20250401_0]]
+![[_files/08-conjuntos_20250401_0]]
 
 Demostración
 
 $$
 \begin{split}
 x\in A\cup(B\cap C) &\iff x\in A \lor x \in (B\cap C) 
-	&&&\text{Definicion}\\
+	&&\text{Definicion}\\
 &\iff x\in A \lor (x\in B \land x \in C) 
-	&&&\text{Definicion} \\
+	&&\text{Definicion} \\
 &\iff (x\in A \lor x \in B) \land (x\in A \lor x\in C) \quad  
-	&&&\text{Tautologia} \\
+	&&\text{Tautologia} \\
 &\iff x \in A \cup B \land x \in A \cup B  
-	&&&\text{Definicion}\\
+	&&\text{Definicion}\\
 &\iff \boxed {x \in (A \cup B) \cap (A\cup B)}  
-	&&&\text{Definicion}
+	&&\text{Definicion}
 \end{split}
 $$
 
@@ -74,7 +55,7 @@ $$
 ==Probar==
 
 $A\cap(B\cup C) = (A\cap B)\cup(A\cap C)$
-![[_files/20250401_fundamentos 20250401_1]]
+![[_files/08-conjuntos_20250401_1]]
 Demostración
 
 $$
@@ -95,13 +76,11 @@ $$
 > Se usa la tautologia $p\land(q\lor r)\iff (p\land q) \lor (p \land r)$
 
 
-# Leyes de Morgan
+## Leyes de Morgan en conjuntos
 
-## $(A\cup B)^c = A^c \cap B^c$
+### $(A\cup B)^c = A^c \cap B^c$
 
-![[_files/20250401_fundamentos 20250401_2]]
-
-Demostración
+![[_files/08-conjuntos_20250401_2]]
 $$
 \begin{split}
 x\in (A\cup B)^c
@@ -119,8 +98,9 @@ x\in (A\cup B)^c
 \end{split}
 $$
 
-## $(A\cap B)^c = A^c \cup B^c$
-![[_files/20250401_fundamentos 20250401_3]]
+### $(A\cap B)^c = A^c \cup B^c$
+
+![[_files/08-conjuntos_20250401_3]]
 $$
 \begin{split}
 x \in (A \cap B)^c 
@@ -140,6 +120,5 @@ x \in (A \cap B)^c
   &&\text{Def. union}\\
 \end{split}
 $$
-# Tarea 
 
-Ejercicios cap 1 libro, solo propiedades y proposiciones
+## [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej|Ejercicios]]

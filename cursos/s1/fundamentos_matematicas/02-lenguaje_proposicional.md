@@ -128,4 +128,93 @@ $$
 \end{array}
 $$
 
+### Tautologia
+
+#Definicion Una FBF es un tautologia si su valor de verdad siempre es verdadero para cualquiera valor de verdad de sus letras proposicionales
+
+==Ejemplo==
+
+La proposición $p\lor\lnot p$  es una tautologia porque siempre es verdadera
+$$
+\begin{array}{|c|c|} \hline
+p & \lnot p & p\lor \lnot p \\ \hline
+\T & \F & \T \\
+\F & \T & \T \\ \hline
+\end{array}
+$$
+
+### Contradicción
+
+#Definicion Una FBF es una contradicción si su valor de verdad siempre es falso para cualquier valor de verdad de sus letras proposicionales
+
+==Ejemplo==
+
+La proposición $p\land\lnot p$ es una contradicción porque siempre es falsa
+$$
+\begin{array}{|c|c|} \hline
+p & \lnot p & p\lor \land p \\ \hline
+\T & \F & \F \\
+\F & \T & \F \\ \hline
+\end{array}
+$$
+
+### Equivalencia lógica
+
+ Si dos FBF. tienen la misma valuación o los mismos renglones en su tabla de verdad se dice que las FBF. son equivalentes
+
+#Definicion Sean $a,b$ FBF. Se dice que $a$ es equivalente a $b$ notado por $a\iff b$ si $a \iff b$ es una tautologia
+
+==Ejemplo==
+
+El condicional $p \implies q$ es equivalente a su variable contrarrecíproca $\lnot q\implies \lnot q$
+$$
+\begin{array}{|c|c|} \hline
+p & q & p\implies q & \lnot q\implies \lnot q & () \iff () \\ \hline
+\T & \F & \T & \T & \T \\
+\T & \F & \F & \F & \T \\
+\F & \F & \T & \T & \T \\
+\F & \T & \T & \T & \T \\ \hline
+\end{array}
+$$
+
+### Variantes del condicional
+
+$$
+\begin{array}{|c|c|} \hline
+& & \text{Condicional} & \text{Reciproca} & \text{Contraria} & \text{Contrarreciproca}\\ \hline
+p & q & p \implies q & q \implies p & \lnot p \implies \lnot q & \lnot q \implies \lnot p \\ \hline
+
+\T & \T & \T & \T & \T & \T \\
+\T & \F & \F & \T & \T & \F \\
+\F & \T & \T & \F & \F & \T \\
+\F & \F & \T & \T & \T & \T \\ \hline
+\end{array}
+$$
+
 ## [[cursos/s1/fundamentos_matematicas/ejercicios/02-lenguaje_proposicional.ej|Ejercicios]]
+
+## Metalenguaje
+
+Debido a la complejidad y dificultad de legibilidad al expresar algunas expresiones se utiliza un **metalenguaje** para facilitar su escritura, este comprende lenguaje proposicional junto con lenguaje natural y matemático
+
+==Ejemplo==
+
+Si quisiéramos expresar "$n$ es primo" lo podríamos hacer de alguna de las siguientes formas:
+
+$$
+(\forall n)(n\in\Z \land n>1 \land \lnot(\exists c)(c\in\Z \land c>1 \land c\not=n \land c|n))
+$$
+
+$$
+(\forall n)(n>1 \implies \lnot(\exists a)(\exists b)(1<a<n \land 1<b<n \land ab  = n))
+$$
+
+$$
+n>1 \land (\forall d)(d\in\Z \land d>0 \land d|n \implies (d=1 \lor d=n))
+$$
+
+Ahora pensemos que tenemos una proposición que use números primos ejemplo "Como 2 y 3 son primos y 2 multiplicado por 3 es 6 entonces 6 no es primo" esto nos daría una proposición demasiado larga por lo que es mejore usar el metalenguaje
+
+$$
+2\ \text{es primo} \land 3\ \text{es primo} \land 2\cdot 3=6 \implies 6\ \text{no es primo}
+$$
