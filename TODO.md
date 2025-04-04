@@ -5,7 +5,7 @@
 	- [x] Organizar [[diario/20250401_fundamentos|20250401_fundamentos]]
 - Matemáticas Discretas
 	- [x] Transcribir notas antiguas
-	- [ ] Revisar clase virtual 03/31 y transcribir notas
+	- [x] Revisar clase virtual 03/31 y transcribir notas
 - Fundamentos Matemáticas
 	- [x] Transcribir notas antiguas
 	- [x] Agregar ejemplos en [[cursos/s1/fundamentos_matematicas/05-negacion_cuantificadores|05-negacion_cuantificadores]]
