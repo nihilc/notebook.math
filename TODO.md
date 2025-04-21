@@ -1,11 +1,14 @@
-# Transcripción apuntes
+# Apuntes Rapidos
 
 - Apuntes Rápidos
 	- [ ] Organizar [[diario/20250401_calculo|20250401_calculo]] 
-	- [x] Organizar [[diario/20250401_fundamentos|20250401_fundamentos]]
+
+# Transcripción apuntes
+
 - Matemáticas Discretas
 	- [x] Transcribir notas antiguas
 	- [x] Revisar clase virtual 03/31 y transcribir notas
+	- [x] Agregar ejemplos a [[cursos/s1/matematicas_discretas/09-aritmetica_modular#Teorema|teorema]]
 - Fundamentos Matemáticas
 	- [x] Transcribir notas antiguas
 	- [x] Agregar ejemplos en [[cursos/s1/fundamentos_matematicas/05-negacion_cuantificadores|05-negacion_cuantificadores]]
@@ -25,8 +28,10 @@
 	- [ ] Completar taller [[cursos/s1/matematicas_discretas/ejercicios/02-divisibilidad.ej-1|02-divisibilidad.ej-1]]
 	- [ ] completar taller [[cursos/s1/matematicas_discretas/ejercicios/03-mcd.ej|03-mcd.ej]]
 	- [ ] Completar taller [[cursos/s1/matematicas_discretas/ejercicios/04-mcm.ej|04-mcm.ej]]
+	- [ ] Completar taller [[cursos/s1/matematicas_discretas/ejercicios/04-representaciones_numeros_enteros.ej|04-representaciones_numeros_enteros.ej]]
 - Fundamentos Matemáticas
 	- [ ] Transcribir y terminar taller [[cursos/s1/fundamentos_matematicas/ejercicios/02-lenguaje_proposicional.ej|02-lenguaje_proposicional.ej]]
 	- [ ] Hacer ejercicios [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej|conjuntos]]
+	- [ ] Hacer taller [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej-1|08-conjuntos.ej-1]]
 - Introducción Calculo
 	- [ ] IMPORTANTE! Desarrollar taller introducción al calculo
