@@ -122,3 +122,4 @@ x \in (A \cap B)^c
 $$
 
 ## [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej|Ejercicios]]
+## [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej-1|Ejercicios]]
