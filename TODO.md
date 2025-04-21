@@ -1,7 +1,7 @@
-# Apuntes Rapidos
+# Apuntes Rápidos
 
 - Apuntes Rápidos
-	- [ ] Organizar [[diario/20250401_calculo|20250401_calculo]] 
+	- [ ] Organizar apuntes calculo y taller
 
 # Transcripción apuntes
 
