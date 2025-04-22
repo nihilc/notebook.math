@@ -246,15 +246,63 @@ Por definición de orden $a>0$ equivale a $a-0\in\P$ ahora por $A_4$ $a\in\P$
 
 $a\in\P \implies a>0$
 
+==Duda==
+
 ### b. $a>0 \implies -a\in\P$
+
+Por definición de orden $a>0 \implies a\in\P$, ahora por tricotomía $a\in\P \veebar a=0 \veebar -a\in\P$
+$\therefore \text{Es falso que si}\; a>0 \implies -a\in\P$
 
 ### c. $0<a<b \land 0<c<d \implies ac<bd$
 
+Por hipótesis $b-a\in\P \land b\in\P$ también $d-c\in\P \land c\in\P$. Ahora
+$$
+\begin{split}
+c(b-a) + b(d-c) &\in\P &\quad &A_7 \\
+cb-ca +bd-bc &\in\P &&A_3 \\
+bd-ac+bc-bc &\in\P &&A_1 \\
+bd-ac &\in\P &&A_5,A_4 \\
+\therefore ac<bd &&&\text{Def. orden}
+\end{split}
+$$
+
 ### d. $a>0 \land b<0 \implies ab < 0$
+
+Por hipótesis $a\in\P \land -b\in\P$ ahora
+$$
+\begin{split}
+a(-b) &\in \P &\quad &A_7\\
+-(ab) &\in \P &&\text{Teorema}\; (-a)b=-(ab) \\
+\end{split}
+$$
+Como sabemos que $ab\not=0$ ya que $a\not=0\land b\not=0$, entonces $-(ab)\in\P \implies ab\not\in\P$ por tricotomía
+$\therefore ab<0$
 
 ### e. $a<0 \land b>0 \implies ab<0$
 
+Por hipótesis $-a\in\P\land b\in\P$ ahora
+$$
+\begin{split}
+(-a)b &\in\P &\quad &A_7 \\
+-(ab) &\in\P &&\text{Teorema}\; (-a)b=ab \\
+\end{split}
+$$
+Como $ab\not=0$ ya que $a\not=0\land b\not=0$ entonces por $-(ab)\in\P\implies ab\not\in\P$ por tricotomía
+$\therefore ab< 0$
+
 ### f. $a-b=b-a \implies a=b$
+
+$$
+\begin{split}
+a-b &= b-a \\
+a-b + (a+b) &= b-a + (a+b) &\quad&A_0 \\
+a+a +b-b &= b+b+a-a &&A_1 \\
+a+a &= b+b &&A_5,A_4 \\
+2^{-1}\cdot2a &= 2^{-1}\cdot2b &&A_0\\
+1a &= 1b &&A_6 \\
+a &= b &&A_4
+\end{split}
+$$
 
 ## 5. $\forall a,b\in\R$ demostrar:
 

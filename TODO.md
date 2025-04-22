@@ -29,6 +29,7 @@
 	- [ ] completar taller [[cursos/s1/matematicas_discretas/ejercicios/03-mcd.ej|03-mcd.ej]]
 	- [ ] Completar taller [[cursos/s1/matematicas_discretas/ejercicios/04-mcm.ej|04-mcm.ej]]
 	- [ ] Completar taller [[cursos/s1/matematicas_discretas/ejercicios/04-representaciones_numeros_enteros.ej|04-representaciones_numeros_enteros.ej]]
+	- [ ] Agregar verificación de ISBN en [[cursos/s1/matematicas_discretas/entregas/Taller_2#55. Los primeros nueve dígitos del ISBN de la tercera edición de este libro son 0-07-053965. Cual es el digito de control para este libro?|Taller_2]]
 - Fundamentos Matemáticas
 	- [ ] Transcribir y terminar taller [[cursos/s1/fundamentos_matematicas/ejercicios/02-lenguaje_proposicional.ej|02-lenguaje_proposicional.ej]]
 	- [ ] Hacer ejercicios [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej|conjuntos]]

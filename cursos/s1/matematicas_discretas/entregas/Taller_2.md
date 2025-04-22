@@ -29,7 +29,7 @@ $$
 
 $$
 \begin{split}
-n|28 &\implies n=\{1,2,4,7,17,28\} \\
+n|28 &\implies n=\{1,2,4,7,14,28\} \\
 &\implies 1+2+4+7+14=28 \\
 &\therefore 28 \;\text{es perfecto} \\
 \\
@@ -160,14 +160,14 @@ $\therefore a-c\equiv(b-d)(\mod m)$
 El código de control de un ISBN es el decimo digito de este, en caso de $\text{0-07-053965}\boxed k$
 Para encontrarlo podemos usar
 $$
-k = 11-\left[\sum_{i=1}^{10}x_i(11-i)\right]\mod 11
+k = 11-\left[\sum_{i=1}^{9}x_i(11-i)\right]\mod 11
 $$
 
 donde $x$ es cada cifra del código ISBN sin contar el digito de control.
 Entonces tenemos
 $$
 \begin{split}
-k &= 11 - (0\cdot10 + 0\cdot9 + 7\cdot8 + 0\cdot7 + 5\cdot6 + 3\cdot5 + 9\cdot4 + 6\cdot3 + 5\cdot2 + k\cdot1) \mod 11 \\
+k &= 11 - (0\cdot10 + 0\cdot9 + 7\cdot8 + 0\cdot7 + 5\cdot6 + 3\cdot5 + 9\cdot4 + 6\cdot3 + 5\cdot2) \mod 11 \\
 &= 11 - (0 + 0 + 56 + 0 + 30 + 15 + 36 + 18 + 10) \mod 11 \\
 &= 11 - 165 \mod 11 \\
 &= 11 - 0 \\
@@ -180,6 +180,8 @@ En este caso como nos da $11$
 - Si $k=11$ remplazamos por $0$
 - Si $k=10$ remplazamos por $X$
 - En cualquier otro caso ese es el digito de control
+
+==Verificar ISBN con formula $\sum_{i=1}^{10}ix_i$==
 
 $\therefore \text{El digito de control es 0} \implies \text{El ISBN completo seria 0-07-0539650}$
 
