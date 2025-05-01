@@ -123,3 +123,4 @@ $$
 
 ## [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej|Ejercicios]]
 ## [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej-1|Ejercicios]]
+## [[cursos/s1/fundamentos_matematicas/ejercicios/08-conjuntos.ej-2|Ejercicios]]

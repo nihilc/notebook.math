@@ -128,12 +128,13 @@ $$
 &= 1
 \end{split}
 $$
+$\therefore 1^{-1}=1$
 
 ### b. $-(a-b-c)=-a-b-c$
 $$
 \begin{split}
 -(a-b-c) &= -1(a-b-c) \\
-&= (-1)(a) + (-1)(-b) + (-1)(-c)
+&= (-1)a + (-1)(-b) + (-1)(-c)
   &\quad &A_3 \\
 &= -(1a) + 1b + 1c
   &&\text{Teorema}\; (-a)(-b)=ab \\
@@ -145,7 +146,6 @@ $$
 Pero $-a+b+c \not= -a-b-c$
 $\therefore -(a-b-c)\not=-a-b-c$
 
-> Comprobar porque como no especifica que las variables no pueden ser $0$ puede darse que $-(a-b-c)=-a-b-c$
 ### c. $-ax=-a \land a\not=0 \implies x=1$
 $$
 \begin{split}
@@ -188,7 +188,7 @@ $$
 &= \frac{-ad-cb}{bd}
   & &\text{Teorema}\; \frac{a}{b}=ab^{-1} \\
 &= \frac{-1(ad+cb)}{bd}
-  & &A_3? \\
+  & &A_3 \\
 &= \frac{-(ad+cb)}{bd}
 \end{split}
 $$
@@ -236,6 +236,17 @@ $$
 
 ### g. $0$ del axioma $4$ es único.
 
+Supongamos que existen dos elementos neutros aditivos distintos, $0$ y $0'$ tales que para todo $a\in\R$:
+
+$$
+a+0=a \land a+0'=a
+$$
+
+Como $0$ es neutro, debe cumplirse para cualquier elemento incluso para $0'$, entonces $0'+0=0'$
+Pero también como $0'$ es neutro debe cumplirse para $0$, entonces $0+0'=0$
+Ahora tenemos que $0'+0=0+0'$ pero esto implica $0'=0$ lo cual contradice nuestra hipótesis de que $0$ y $0'$ son distintos
+$\therefore 0 \;\text{de}\; A_4 \;\text{es unico}$
+
 ## 4. $\forall a,b,c,d \in \R$ demostrar:
 
 ### a. $a>0 \iff a \in \P$
@@ -246,7 +257,7 @@ Por definición de orden $a>0$ equivale a $a-0\in\P$ ahora por $A_4$ $a\in\P$
 
 $a\in\P \implies a>0$
 
-==Duda==
+==Falta==
 
 ### b. $a>0 \implies -a\in\P$
 
@@ -275,7 +286,7 @@ a(-b) &\in \P &\quad &A_7\\
 -(ab) &\in \P &&\text{Teorema}\; (-a)b=-(ab) \\
 \end{split}
 $$
-Como sabemos que $ab\not=0$ ya que $a\not=0\land b\not=0$, entonces $-(ab)\in\P \implies ab\not\in\P$ por tricotomía
+Como sabemos que $ab\not=0$ ya que $a\not=0\land b\not=0$, entonces $-(ab)\in\P$ y por tricotomía $ab\not\in\P$
 $\therefore ab<0$
 
 ### e. $a<0 \land b>0 \implies ab<0$
@@ -287,7 +298,7 @@ $$
 -(ab) &\in\P &&\text{Teorema}\; (-a)b=ab \\
 \end{split}
 $$
-Como $ab\not=0$ ya que $a\not=0\land b\not=0$ entonces por $-(ab)\in\P\implies ab\not\in\P$ por tricotomía
+Como $ab\not=0$ ya que $a\not=0\land b\not=0$ entonces por $-(ab)\in\P$ y por tricotomía $ab\not\in\P$
 $\therefore ab< 0$
 
 ### f. $a-b=b-a \implies a=b$
@@ -298,7 +309,7 @@ a-b &= b-a \\
 a-b + (a+b) &= b-a + (a+b) &\quad&A_0 \\
 a+a +b-b &= b+b+a-a &&A_1 \\
 a+a &= b+b &&A_5,A_4 \\
-2^{-1}\cdot2a &= 2^{-1}\cdot2b &&A_0\\
+2^{-1}\cdot2a &= 2^{-1}\cdot2b \\
 1a &= 1b &&A_6 \\
 a &= b &&A_4
 \end{split}
@@ -308,9 +319,54 @@ $$
 
 ### a. $|ab|=|a||b|$
 
+1. $a>0 \land b>0$
+	- $ab>0 \implies |ab|=ab$
+	- $|a|=a \land |b|=b \implies |a||b|=ab$
+	- $\therefore |ab|=|a||b|$
+2. $a<0 \land b<0$
+	- $ab>0 \implies |ab|=ab$
+	- $|a|=-a \land |b|=-b \implies |a||b|=(-a)(-b)=ab$
+	- $\therefore |ab|=|a||b|$
+3. $a>0 \land b<0$
+	- $ab<0 \implies |ab|=-ab$
+	- $|a|=a \land |b|=-b \implies |a||b|=a(-b)=-ab$
+	- $\therefore |ab|=|a||b|$
+4. $a<0 \land b>0$
+	- $ab<0 \implies |ab|=-ab$
+	- $|a|=-a \land |b|=b \implies |a||b|=(-a)b=-ab$
+	- $\therefore |ab|=|a||b|$
+5. $a=0 \lor b=0$
+	- $ab=0 \implies |ab|=0$
+	- $|a|=0 \lor |b|=0 \implies |a||b|=0$
+	- $\therefore |ab|=|a||b|$
+
 ### b. $|a-b|\geq |a| - |b|$
 
 ### c. $-|a| \leq a \leq |a|$
+
+1. $a>0 \implies a\in\P \implies |a|=a$
+$$
+\begin{split}
+-|a| \leq &a \leq |a| \\
+-a \leq &a \leq a
+\end{split}
+$$
+2. $a<0 \implies -a\in\P \implies |a|=-a$
+$$
+\begin{split}
+-|a| \leq &a \leq |a| \\
+-(-a) \leq &a \leq -a \\
+a \leq &a \leq -a
+\end{split}
+$$
+3. $a=0 \implies |a|=0$
+$$
+\begin{split}
+-|a| \leq &a \leq |a| \\
+-0 \leq &0 \leq 0 \\
+0 \leq &0 \leq 0
+\end{split}
+$$
 
 ## 6. Resolver la siguientes inecuaciones, justifique con axioma, definición o teorema cada paso:
 
